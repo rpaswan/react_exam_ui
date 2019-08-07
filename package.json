@@ -4,16 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rpaswan/react_exam_ui.git"
-  },
-  "author": "pritom",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rpaswan/react_exam_ui/issues"
-  },
-  "homepage": "https://github.com/rpaswan/react_exam_ui#readme"
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "arangojs": "^6.10.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "uuid4": "^1.1.4"
+  }
 }
